@@ -104,8 +104,34 @@ main {
 }
 
 
+/* fact-section */
 
+.facts {
+    margin: 50px 0;
+}
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.facts-card-container .card {
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+.facts-card-container .card-title {
+    color: #7c7878;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 10px 0;
+}
 
+.facts-card-container .card-stats {
+    margin-top: 5px;
+    color: #424242;
+
+}
 
 
 
